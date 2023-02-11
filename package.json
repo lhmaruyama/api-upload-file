@@ -1,0 +1,12 @@
+{
+  "name": "api-upload-files",
+  "version": "1.0.0",
+  "description": "API para gerenciar arquivos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
