@@ -5,7 +5,7 @@ dotenv.config()
 mongoose.set('strictQuery', true)
 
 /* export const main = async ()=>{
-    await mongoose.connect(`mongodb+srv://${process.dotenv.DB_USER}:${process.dotenv.DB_PASS}@cluster0.s787g4p.mongodb.net/?retryWrites=true&w=majority`)
+    await mongoose.connect(`mongodb+srv://${process.env.DBUSER}:${process.env.DBPASS}@cluster0.s787g4p.mongodb.net/?retryWrites=true&w=majority`)
     console.log("MongoDB Atlas connected")
 } */
 /* export const main = async ()=>{
