@@ -1,5 +1,5 @@
 ## Sobre o projeto
-- API para fazer upload de arquivos.
+- API para fazer gerenciamento de arquivos. Recursos de upload, search e delete de arquivos.
 <hr>
 
 ## Objetivo do projeto
