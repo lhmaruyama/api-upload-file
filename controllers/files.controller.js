@@ -27,7 +27,7 @@ export const findAll = async (req, res) => {
     try {
 
         const findFiles = await Files.find()
-        if (!findFiles) {
+        if (!findFiles || findFiles == "") {
             return res.status(404).json({ message: "No files found" })
         }
         res.json(findFiles)
